@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>关注页面</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/jquery-3.4.1.min.js" ></script>
+    <script src="/js/index.js" charset="UTF-8"></script>
+</head>
+<body>
+    <div class="header">
+        <ul>
+            <li class="li2"><a href="#" class="zy">主页</a></li>
+            <li class="li1"><a href="main.html" class="a">商品展示</a></li>
+            <li class="li1"><a href="#" class="a">个人关注</a></li>
+        </ul>
+    </div>
+    <div class="div1">
+      <table class="table">
+          <tr>
+              <th>商品名称</th>
+              <th>商品类型</th>
+              <th>商品品牌</th>
+              <th>商品价格</th>
+              <th style="color: red">备注</th>
+              <th>修改备注</th>
+              <th>del</th>
+          </tr>
+          {%content%}
+      </table>
+    </div>
+</body>
+</html>

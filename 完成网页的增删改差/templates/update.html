@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/css/update.css">
+    <script src="/js/update.js" charset="UTF-8"></script>
+    <script src="/js/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+<div class="header">
+    <ul>
+        <li class="li2"><label class="zy">主页</label></li>
+        <li onclick="li1()" class="li1"><a href="#" class="a">商品展示</a></li>
+        <li onclick="li2()" class="li1"><a href="#" class="a">个人关注</a></li>
+    </ul>
+</div>
+<div class="div1">
+    <table >
+        <tr>
+            <td id="td1">正在修改：</td>
+            <td id="td2">{%note_info%}</td>
+            <td id="td3"><input type="text"  value="{%code%}" id="bz" name="beizhu"></td>
+            <td id="id4" onclick="sub()">修改</td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
